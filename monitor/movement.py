@@ -30,7 +30,7 @@ class MovementMonitor(Monitor):
             distance_scale=5, distance_base_size=4, distance_slope_scale=2,
             proportion_thres_to_delta=0.5, proportion_scale=0.8,
             start_period=0.3, start_thres=0.5, start_proportion_factor=1.5,
-            merge_detection_score=False, min_score=0.3,
+            merge_detection_score=False, min_score=0.25,
             return_all_events=False):
         super().__init__(video_name, fps, stride)
         self.video_id = video_id
