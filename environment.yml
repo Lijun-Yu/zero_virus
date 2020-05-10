@@ -1,0 +1,31 @@
+name: zero_virus
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - opencv
+  - matplotlib
+  - cython
+  - numba
+  - pytorch
+  - torchvision
+  - cudatoolkit=10.1
+  - cudnn
+  - autopep8
+  - pylint
+  - ipykernel
+  - ipywidgets
+  - pip:
+    - gputil
+    - moviepy
+    - pycocotools
+    - detectron2==0.1.2
+    - -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
+    - lap
+    - cython_bbox
+    - pyperformance
