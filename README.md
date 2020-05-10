@@ -34,6 +34,11 @@ Directory structure:
 
 ## Evaluate
 
+As a zero-shot system, no training is required.
+We used [Mask R-CNN](http://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html) pretrained on [COCO](http://cocodataset.org/#home) from [detectron2](https://github.com/facebookresearch/detectron2) as detector, whose weights will be downloaded at the first run.
+
+As the dataset only provided screenshots of the pre-defined routes, we created our own [annotation](monitor/tracks) of them with [labelme](https://github.com/wkentaro/labelme).
+
 To get system outputs, run
 
 ```sh
