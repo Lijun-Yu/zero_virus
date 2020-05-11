@@ -59,9 +59,9 @@ python utils/efficiency_base.py
 
 On Dataset A with 8 V100 GPUs:
 
-* S1: 0.9320
-  * S1_Effectiveness: 0.9108
-    * mwRMSE: 4.3290
+* S1: 0.9328
+  * S1_Effectiveness: 0.9120
+    * mwRMSE: 4.2738
   * S1_Efficiency: 0.9815
     * time: 3084.04
     * baseline: 0.546801
