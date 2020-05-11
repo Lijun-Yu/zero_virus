@@ -1,4 +1,4 @@
-# Zero-VIRUS*: Zero-shot VehIcle Route Understanding System for Intelligent Transportation (CVPR 2020 AI City Challenge Track 1)
+# Zero-VIRUS*: Zero-shot VehIcle Route Understanding System for Intelligent Transportation ([CVPR 2020 AI City Challenge Track 1](https://www.aicitychallenge.org/2020-data-and-evaluation/))
 
 Authors: [Lijun Yu](https://me.lj-y.com), Qianyu Feng, Yijun Qian, Wenhe Liu, Alexander G. Hauptmann \
 Email: lijun@lj-y.com
