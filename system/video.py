@@ -25,11 +25,11 @@ VideoJob = namedtuple('Job', [
 class VideoSystem(System):
 
     def __init__(self, video_dir, n_gpu=128, batch_size_per_gpu=4,
-                 n_detector_per_gpu=2):
+                 n_detector_per_gpu=1, gpu_per_replica=0.5):
         self.video_dir = video_dir
         self.batch_size = batch_size_per_gpu
         self.stride = 1
-        super(VideoSystem, self).__init__(n_gpu)
+        super(VideoSystem, self).__init__(n_gpu, gpu_per_replica)
         for pipeline_i, gpu in enumerate(self.gpus):
             stages = [LoaderStage(), DetectorStage([gpu], n_detector_per_gpu),
                       TrackerStage(), MinotorStage()]

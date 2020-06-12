@@ -20,7 +20,7 @@ class Stage(object):
         return 1
 
     def get_queue_size(self) -> int:
-        return 32
+        return 16
 
     def get_pipeline_item(self):
         pipeline_item = PipelineItem(
